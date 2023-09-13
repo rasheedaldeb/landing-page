@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(./5806842-soft-green-circle-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+.nav h2{
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+ .nav ul {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+ul a {
+    text-decoration: none;
+    font-size: large;
+    list-style: none;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 5px;
+    transition: 0.5s;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+ul a:hover {
+    color: green;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-top: -5px;
+    padding: 5px;
+    border: 3px solid green;
+}
+ul button {
+    margin-top: -10px;
+    padding: 10px;
+    margin-right: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    transition: 0.5s;
+}
+.main-container {
+    width: 100%;
+    display: flex;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.204);
+    margin-top: 100px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+}
+.container input {
+    background-color: transparent;
+    padding: 10px;
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    margin-top:15px;
+    transition: 0.2s;
+}
+.container input:hover {
+    border: 3px solid greenyellow;
+    margin-top: 5px;
+}
+.container h3 {
+    text-transform: capitalize;
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(56, 92, 2);
+    text-transform: capitalize;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+.article {
+    width: 500px;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+}
+.article h4 {
+    font-weight: normal;
+}
+.article h1::first-letter {
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    font-style: italic;
+}
+.article button {
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    background-color:  rgb(56, 92, 2);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+ button:hover {
+    background: none;
+    color: black;
+}
