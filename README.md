@@ -1,2 +1,2 @@
-# Projects
-HTML, CSS projects
+# landing page
+HTML, CSS project
