@@ -31,6 +31,8 @@ ul a {
     color: black;
     margin-top: 5px;
     transition: 0.5s;
+    flex-grow: 1;
+    flex-wrap: wrap;
 }
 ul a:hover {
     color: green;
